@@ -1,0 +1,39 @@
+/* google fonts 
+-------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,500&family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* first parts --
+----------------------*/
+.first-part{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #161616;
+    width: 1000px;
+    height: 500px;
+    border-radius: 30px;
+    margin-top: 76px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+  color: white;
+  margin: 100px;
+  font-style: normal;
+
+}
+/* buttons --
+-------------*/
+.button{
+    color: white;
+    background: #DD0000;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+
+}
